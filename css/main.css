@@ -1,0 +1,16 @@
+
+main > .slide_box{
+    width:500%;
+    height:calc(100vh - 100px);
+    list-style: none;
+    display: flex;
+}
+
+main > .slide_box > div > img{
+    width:100%;
+    height:calc(100vh - 100px);
+}
+
+.prev,.next,.dot{
+    position: absolute;
+}

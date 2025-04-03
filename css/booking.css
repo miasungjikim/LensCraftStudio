@@ -113,6 +113,10 @@ button.submit_button {
     margin-right: auto;      
 }
 
+.password_box input::placeholder{
+    color:#a8a8a8;
+    font-size:12px;
+}
 
 
 

@@ -58,12 +58,26 @@ nav > ul > li > a {
 }
 
 .image_gallery {
-    display: flex;
+    display: flex; 
     justify-content: space-between; 
     /* align-items: center;  */
     gap: 20px; 
     flex-wrap: wrap; 
     margin-bottom: 90px;
+}
+
+.image_gallery .inline_box{
+    /* background-color: pink; */
+    width:98%;
+    display: inline-block;
+}
+
+.image_gallery .inline_box h3{
+
+    font-family: roboto;
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 5px;
 }
 
 .image_gallery a {

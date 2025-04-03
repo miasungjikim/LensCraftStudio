@@ -1,0 +1,155 @@
+/* Header */
+header {
+    width: 100%;
+    height: 80px;
+    padding: 14px 108px;
+    display: flex;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* background-color: #333;  */
+}
+
+header > h1 {
+    width: 76px;
+    height: 53px;
+    margin-right: 40px;
+}
+
+header > h1 > a > img {
+    width: 100%;
+}
+
+header > nav {
+    margin: 16px 0;
+}
+
+header > nav > ul {
+    list-style: none;
+    display: flex;
+}
+
+header > nav > ul > li {
+    padding: 0 10px;
+    position: relative;
+}
+
+nav > ul > li > a {
+    color: #fff;
+    font-size:14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}
+
+nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    width:100px;
+}
+
+nav > ul > li > ul > li {
+    padding: 5px;
+}
+
+nav > ul > li > ul > li:hover{
+    background-color: #D99152;
+    transition: all 0.3s ease;
+}
+
+nav > ul > li > ul > li > a {
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+/* Contact Us Button */
+.contact_us {
+    position: absolute;
+    right: 108px;
+    margin-top: 5px;
+    width: 130px;
+    height: 40px;
+    border-radius: 14px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #333; */
+    transition: all 0.3s ease;
+}
+
+.contact_us:hover {
+    background-color: #D99152;
+    border-color: #D99152;
+}
+
+.contact_us > a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #EFEADC;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 108px;
+    align-items: center;
+}
+
+footer > .info_footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+footer > .info_footer > li {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+footer > .sns_footer {
+    display: flex;
+    align-items: center;
+}
+
+footer > .sns_footer > li {
+    padding: 0 6px;
+}
+
+footer > .sns_footer > li > a > img {
+    width: 34px;
+    height: 34px;
+}
+
+footer > .sns_footer > li > .twitter_logo > img{
+    width:43px;
+    height:43px;
+}

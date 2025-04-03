@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking_form</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <!-- Google Fonts: Roboto, Merriweather -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="inside">
+        <h1 class="logo">
+            <a href="/index.html">
+                <img src="./images/logo_black.png" alt="Logo Image of Camera">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li>
+                    <a href="#">Portfolio &#9661;</a>
+                    <ul class="sub_nav_in">
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">Portrait</a></li>
+                        <li><a href="#">Commercial</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pricingPage.html">Packages & Pricing</a></li>
+                <li>
+                    <a href="#">Booking &#9661;</a>
+                    <ul class="sub_nav">
+                        <li><a href="/booking.html">Make a Booking</a></li>
+                        <li><a href="/booking_check.html">Check Booking</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Photo Academy</a></li>
+            </ul>
+        </nav>
+        <div class="contact_us">
+            <a href="#">Contact Us</a>
+        </div>
+    </header>
+    <main>
+        <h2>Booking Form</h2>
+        <form class="booking_form">
+            <!-- Personal Information -->
+            <div class="input_group">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            
+            <div class="input_group">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            
+            <div class="input_group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="input_group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="input_group">
+                <label for="password">password</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            
+            <!-- Booking Details -->
+            <div class="input_group">
+                <label for="package">Package</label>
+                <select id="package" name="package" required>
+                    <option value="wedding">Wedding Photography</option>
+                    <option value="family">Family Photoshoot</option>
+                    <option value="commercial">Commercial Project</option>
+                </select>
+            </div>
+            
+            <div class="input_group">
+                <label for="date">Event Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="input_group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time">
+            </div>
+            
+            
+            <!-- Additional Information -->
+            <div class="input_group">
+                <label for="notes">Special Requests or Notes</label>
+                <textarea id="notes" name="notes"></textarea>
+            </div>
+            
+            <div class="input_group">
+                <label for="people_count">Number of People</label>
+                <input type="number" id="people_count" name="people_count" min="1" required>
+            </div>
+            
+            <!-- Payment Information -->
+            <div class="input_group">
+                <label for="payment">Payment Method</label>
+                <select id="payment" name="payment">
+                    <option value="credit_card">Credit Card</option>
+                    <option value="bank_transfer">Bank Transfer</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </div>
+            
+            
+            <button type="submit" class="submit_button">Submit Booking</button>
+        </form>
+    </main>
+    <footer>
+        <ul class="info_footer">
+            <li>Lenscraft Studio Limited</li>
+            <li>Wellington, New Zealand</li>
+            <li>000-000-0000</li>
+            <li>Lenscraft@studio.com</li>
+        </ul>
+        <ul class="sns_footer">
+            <li>
+                <a href="#" class="twitter_logo">
+                    <img src="./images/twitter_logo.png" alt="twitter_logo">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/instagram_logo.png" alt="Instagram Logo">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/facebook_logo.png" alt="Facebook Logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>

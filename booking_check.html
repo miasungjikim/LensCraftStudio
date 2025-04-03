@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking_check</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/booking_check.css">
+    <!-- Google Fonts: Roboto, Merriweather -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="/index.html">
+                <img src="./images/logo_black.png" alt="Logo Image of Camera">
+            </a>
+        </h1>
+        <nav>
+            <ul> 
+                <li><a href="/index.html">Home</a></li>
+                <li>
+                    <a href="#">Portfolio &#9661;</a>
+                    <ul class="sub_nav">
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">Portrait</a></li>
+                        <li><a href="#">Commercial</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pricingPage.html">Packages & Pricing</a></li>
+                <li>
+                    <a href="#">Booking &#9661;</a>
+                    <ul class="sub_nav">
+                        <li><a href="/booking.html">Make a Booking</a></li>
+                        <li><a href="/booking_check.html">Check Booking</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Photo Academy</a></li>
+            </ul>
+        </nav>
+        <div class="contact_us">
+            <a href="#">Contact Us</a>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Check your booking Status</h2>
+
+        <form action="#" method="post">
+            <div class="container">
+                <label for="name"></label>
+                <input class="input_box name_box" type="text" placeholder="  Email or Name" name="name" required>
+                <label for="pwd"></label>
+                <input class="input_box pwd_box" type="text" placeholder="  Password" name="pwd" required>
+                
+                <div class="check_res">
+                    <label>
+                        <input type="checkbox" checked ="checked" name="remember">
+                        <span>Remember me</span>
+                    </label>
+
+                </div>
+
+                <div class="container check_cont">
+                    <button>
+                        <p>Check Reservation</p>
+                    </button>
+                    <span>Forget your information?</span>
+                    <a href="#">Click here!</a>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <ul class="info_footer">
+            <li>Lenscraft Studio Limited</li>
+            <li>Wellington, New Zealand</li>
+            <li>000-000-0000</li>
+            <li>Lenscraft@studio.com</li>
+        </ul>
+        <ul class="sns_footer">
+            <li>
+                <a href="#" class="twitter_logo">
+                    <img src="./images/twitter_logo.png" alt="twitter_logo">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/instagram_logo.png" alt="Instagram Logo">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/facebook_logo.png" alt="Facebook Logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

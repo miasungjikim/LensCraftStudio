@@ -1,0 +1,33 @@
+/*Basic Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#333;
+}
+
+a{
+    text-decoration: none;
+}
+h1, h2, h3, p {
+    margin-bottom: 15px;
+}
+h1, h2, h3{
+    font-family: merriweather;
+    font-size: 36px;
+}
+body{
+    font-family:Roboto;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+ul,li{
+    list-style:none;
+    text-decoration: none;
+}
+
+button{
+    all:unset;
+}

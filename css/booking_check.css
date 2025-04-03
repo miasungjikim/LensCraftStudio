@@ -1,0 +1,124 @@
+/* navigation */
+header {
+    width: 100%;
+    height: 80px;
+    padding: 14px 108px;
+    display: flex;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* background-color: #333;  */
+}
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #333;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}
+
+.service_pricing_page > .section_title{
+    padding:80px 0px 80px 0px;
+}
+
+nav > ul > li > a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact_us {
+    position: absolute;
+    right: 108px;
+    margin-top: 5px;
+    width: 130px;
+    height: 40px;
+    border-radius: 14px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #333; */
+    transition: all 0.3s ease;}
+    .contact_us a{
+        color:#333;
+    }
+
+    .contact_us a:hover{
+        color:#fff;
+    }
+
+main{
+    margin-top: 180px;
+    height: calc(100vh - 260px);
+}
+
+/*booking_check*/
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom:74px;
+}
+
+.container{
+    /* move to center */
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.detail_box{
+    width:400px;
+}
+
+.container .input_box{
+    width:100%;
+    height: 74px;
+    border: 1px solid #333;
+}
+
+.container .name_box{
+    margin-bottom:20px;
+}
+
+.container .pwd_box{
+    margin-bottom: 13px;
+}
+
+.container .check_res{
+    text-align: right;
+    margin-bottom:14px;
+}
+
+.container .check_res span{
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.check_cont{
+    text-align: center;
+}
+
+.check_cont button{
+    width:100%;
+    height:68px;
+    background-color:#D99152;
+    cursor:pointer;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.check_cont button p{
+    text-align: center;
+    padding-top:18px;
+}
+
+.check_cont span, .check_cont a{
+    font-size: 12px;
+}
+
+.check_cont a{
+    text-decoration:underline;
+    color:#D99152
+}
+
+
